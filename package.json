@@ -1,0 +1,23 @@
+{
+  "name": "troisjs-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.126.1",
+    "troisjs": "^0.1.19",
+    "vue": "^3.0.7"
+  },
+  "devDependencies": {
+    "@tweenjs/tween.js": "18",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "chroma-js": "^2.1.1",
+    "simplex-noise": "^2.4.0",
+    "tweakpane": "^2.1.1",
+    "vite": "^2.0.5"
+  }
+}
