@@ -82,6 +82,9 @@ export default {
       lightGroup.rotation.z += 0.005;
     });
   },
+  beforeUnmount() {
+    this.pane.dispose();
+  },
   methods: {
     random() {
       const props = this.planetProps;
