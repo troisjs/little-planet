@@ -6,7 +6,7 @@
       mouse-move
       resize="window"
       :orbit-ctrl="{ enableDamping: true }"
-      @mousemove="onMouseMove"
+      @mousemove="onMouseClick"
     >
       <Camera :position="{ z: 400 }" />
       <Scene>
