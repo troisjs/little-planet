@@ -148,7 +148,7 @@ export default {
 
       this.pane = pane;
     },
-    onMouseMove() {
+    onMouseClick() {
       if (!this.$refs.planet) return;
       const { mouse, camera } = this.$refs.renderer.three;
       const p = this.$refs.planet.raycast(mouse, camera);
