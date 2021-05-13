@@ -1,11 +1,13 @@
 {
-  "name": "troisjs-app",
-  "version": "0.0.0",
+  "name": "farm-your-planet",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
+    "author": "www.jeeltcraft.com",
+  "license": "MIT",
   "dependencies": {
     "three": "^0.126.1",
     "troisjs": "^0.1.19",
